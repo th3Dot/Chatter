@@ -1,10 +1,10 @@
 name:                Chatter
 version:             0.1.0.0
-github:              "githubuser/Chatter"
+github:              "th3Dot/Chatter"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2018 Author name here"
+author:              "Martin Kalenda"
+maintainer:          "email.kalenda@gmail.com"
+copyright:           "2018 Martin Kalenda"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,7 @@ description:         Please see the README on Github at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- network
 
 library:
   source-dirs: src
